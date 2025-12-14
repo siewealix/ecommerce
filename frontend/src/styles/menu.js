@@ -1,0 +1,67 @@
+// src/styles/menu.js
+
+export const menuStyles = {
+  header: {
+    width: "100%",
+    backgroundColor: "#ffffff",
+    borderBottom: "1px solid #ccc",
+  },
+  inner: {
+    maxWidth: "1200px",
+    margin: "0 auto",
+    padding: "8px 16px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    boxSizing: "border-box",
+  },
+  brand: {
+    fontWeight: "600",
+    fontSize: 16,
+  },
+  nav: {
+    display: "flex",
+    gap: 24,
+    flex: 1,
+    justifyContent: "center",
+  },
+  navLink: {
+    textDecoration: "none",
+    color: "#333",
+    fontSize: 14,
+    fontWeight: "500",
+    padding: "4px 8px",
+    borderBottom: "2px solid transparent",
+  },
+  cartButton: {
+    position: "relative",
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textDecoration: "none",
+    backgroundColor: "#004E64",
+    color: "#fff",
+    borderRadius: 9999,
+    width: 40,
+    height: 40,
+    border: "none",
+    cursor: "pointer",
+  },
+  cartIcon: {
+    fontSize: 20,
+    lineHeight: 1,
+  },
+  cartCount: {
+    position: "absolute",
+    top: -4,
+    right: -4,
+    backgroundColor: "#ff5b5b",
+    color: "#fff",
+    borderRadius: 9999,
+    padding: "0 6px",
+    fontSize: 11,
+    fontWeight: "700",
+    minWidth: 18,
+    textAlign: "center",
+  },
+};
